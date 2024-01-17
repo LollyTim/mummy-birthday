@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 1000px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bday.gif);
     background-position: center;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@ body {
     justify-content: space-around;
     padding: 0 0.8rem;
 
-    transform: rotateY(-230deg) rotateX(20deg);
+    transform: rotateY(20deg) rotateX(5deg);
     position: absolute;
 }
 
@@ -94,10 +94,17 @@ body {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.mum4 {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 .frames p {
     font-size: 20px;
     font-weight: bold;
-    transform: rotateY(180deg);
+    transform: rotateY();
 }
 
 .frames:nth-child(1) {
@@ -114,7 +121,6 @@ body {
     top: 100px;
     background-color: burlywood;
 }
-
 
 
 @media (max-width:800px) {
