@@ -117,8 +117,8 @@ body {
 
 
 
-@media (max-width:480px) {
-    .container {
-        display: block;
+@media (max-width:800px) {
+    .frames {
+        margin-top: 600px;
     }
 }
