@@ -166,7 +166,7 @@ body {
     }
 }
 
-@media (max-width:420px) {
+@media (max-width:430px) {
     .frames {
         margin-top: 350px;
         margin-left: 250px;
@@ -175,7 +175,7 @@ body {
     }
 
     .card {
-        margin-left: 40px;
+        margin-left: 60px
     }
 }
 
