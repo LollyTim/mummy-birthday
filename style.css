@@ -21,11 +21,12 @@ body {
 .card {
     width: 280px;
     height: 360px;
-    position: absolute;
     top: 100px;
     left: 230px;
     transition: 2s;
     transform-style: preserve-3d;
+    margin-top: 50px;
+    margin-left: 36px;
 }
 
 .card:hover {
@@ -65,7 +66,12 @@ body {
 .inside {
     background-color: rgb(255, 244, 79);
     box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.5);
+    /* transform: rotateY(180deg); */
+}
+
+.inside h3 {
     transform: rotateY(180deg);
+    display: none;
 }
 
 .inside h3 {
@@ -83,7 +89,7 @@ body {
     justify-content: space-around;
     padding: 0 0.8rem;
 
-    transform: rotateY(20deg) rotateX(5deg);
+    transform: rotateY(0) rotateX(-20deg);
     position: absolute;
 }
 
@@ -95,8 +101,8 @@ body {
 }
 
 .mum4 {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150x;
     border-radius: 50%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -125,6 +131,11 @@ body {
 
 @media (max-width:800px) {
     .frames {
-        margin-top: 600px;
+        margin-top: 500px;
+        margin-left: 150px;
+
+        position: absolute;
+
+
     }
 }
