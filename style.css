@@ -19,8 +19,8 @@ body {
 }
 
 .card {
-    width: 280px;
-    height: 360px;
+    width: 240px;
+    height: 320px;
     top: 100px;
     left: 230px;
     transition: 2s;
@@ -110,7 +110,7 @@ body {
 .frames p {
     font-size: 20px;
     font-weight: bold;
-    transform: rotateY();
+    transform: rotateY(20deg);
 }
 
 .frames:nth-child(1) {
@@ -128,14 +128,27 @@ body {
     background-color: burlywood;
 }
 
+.frames:nth-child(4) {
+    top: 200px;
+    background-color: greenyellow;
+}
+
+.frames:nth-child(5) {
+    top: 300px;
+    background-color: green;
+}
+
+.frames:nth-child(6) {
+    top: 300px;
+    background-color: burlywood;
+}
+
 
 @media (max-width:800px) {
     .frames {
-        margin-top: 500px;
-        margin-left: 150px;
-
+        margin-top: 350px;
+        margin-left: 250px;
         position: absolute;
-
-
+        width: 300px;
     }
 }
