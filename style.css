@@ -29,7 +29,7 @@ body {
     margin-left: 36px;
 }
 
-.card:hover {
+.card:checked {
     transform: rotateY(180deg);
 }
 
